@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Shresth Tripathi — Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Shresth Tripathi — Web Developer. Projects, skills, certifications and contact.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <input id="theme-toggle" class="visually-hidden" type="checkbox" aria-label="Toggle Dark/Light">
+
+    <div class="site">
+
+        <header class="site-header" role="banner">
+            <div class="container header-inner">
+                <div class="logo" aria-hidden="true">
+                    <svg viewBox="0 0 100 100" class="logo-mark" role="img" aria-label="Logo">
+                        <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="2" />
+                        <text x="50%" y="55%" text-anchor="middle" font-size="34" font-family="Verdana"
+                            dy="0.3em">S</text>
+                    </svg>
+                    <span class="logo-text">Shresth Tripathi</span>
+                </div>
+
+                <nav class="nav" role="navigation" aria-label="Main navigation">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link" href="#certs">Certifications</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </nav>
+
+                <!-- static day/night toggle — no JS required -->
+                <label for="theme-toggle" class="theme-switch" title="Toggle Dark / Light">
+                    <span class="sun">☀</span><span class="moon">🌙</span>
+                    <span class="switch-knob" aria-hidden="true"></span>
+                </label>
+            </div>
+        </header>
+
+        <main>
+
+            <!-- HOME -->
+            <section id="home" class="home-section section container">
+                <div class="home-grid">
+                    <div class="intro">
+                        <h1 class="headline">Hi, I’m <span class="accent">Shresth</span></h1>
+                        <p class="lead">I design & build modern, accessible web experiences — with delightful
+                            animations, responsive layouts and clean code.</p>
+
+                        <div class="home-actions">
+                            <a class="btn primary" href="assets/resume.pdf" target="_blank" download>Download Resume</a>
+                            <a class="btn ghost" href="#projects">See Projects</a>
+                        </div>
+
+                        <div class="socials" aria-label="Social links">
+                            <a href="https://github.com/Shr-devloper" aria-label="GitHub" class="social" title="GitHub">
+                                <!-- simple svg icon -->
+                                <svg viewBox="0 0 24 24" class="icon">
+                                    <path
+                                        d="M12 .5a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2.3c-3.4.7-4.1-1.6-4.1-1.6-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.6.8 1.9 1.1.1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.8 0-1.3.4-2.3 1-3.1-.1-.3-.5-1.6.1-3.4 0 0 .9-.3 3 .9a10.2 10.2 0 015.5 0c2.1-1.2 3-.9 3-.9.6 1.8.2 3.1.1 3.4.6.8 1 1.8 1 3.1 0 4.5-2.8 5.5-5.5 5.8.4.3.7.9.7 1.8v2.6c0 .3.2.7.8.6A12 12 0 0012 .5z" />
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/shresth-tripathi-218447241/" aria-label="LinkedIn" class="social" title="LinkedIn">
+                                <svg viewBox="0 0 24 24" class="icon">
+                                    <path
+                                        d="M4.98 3.5a2.5 2.5 0 11-.01 5.01 2.5 2.5 0 010-5.01zM3 9h4v12H3zM9 9h3.6v1.6h.1c.5-.9 1.8-1.8 3.6-1.8 3.9 0 4.6 2.6 4.6 6v7.2h-4v-6.4c0-1.5 0-3.4-2.1-3.4-2.1 0-2.4 1.6-2.4 3.2V21H9z" />
+                                </svg>
+                            </a>
+                            <a href="https://x.com/home" aria-label="Twitter" class="social" title="Twitter">
+                                <svg viewBox="0 0 24 24" class="icon">
+                                    <path
+                                        d="M20 5.5c-.6.3-1.3.6-2 .6.7-.4 1.3-1 1.6-1.8-.7.4-1.5.6-2.3.8-.7-.8-1.8-1.2-2.9-1.2-2.3 0-4.1 1.9-4.1 4.3 0 .3 0 .5.1.8-3.4-.2-6.4-1.8-8.5-4.3-.4.7-.6 1.5-.6 2.3 0 1.6.7 3 1.8 3.8-.6 0-1.2-.2-1.7-.5 0 2 1.4 3.7 3.3 4.1-.5.1-1 .2-1.6.2-.4 0-.8 0-1.2-.1.8 2.5 3.1 4.3 5.8 4.3-2.1 1.6-4.7 2.6-7.5 2.6-.5 0-1 0-1.4-.1 2.8 1.8 6 2.8 9.4 2.8 11.3 0 17.4-9.3 17.4-17.4v-.8c1.2-.9 2.2-2 3-3.3-.9.4-1.8.6-2.8.7 1-.6 1.8-1.5 2.3-2.6z" />
+                                </svg>
+                            </a>
+                           
+                        </div>
+                    </div>
+
+                    <div class="portrait-wrap">
+                        <div class="portrait-card">
+                            <img src="assets/images/portfolio image.jpg" alt="Shresth Tripathi" class="portrait">
+                            <div class="portrait-shadow"></div>
+                        </div>
+                        <div class="floating-info">
+                            <div class="stat">
+                                <strong>4+</strong><span>Projects</span>
+                            </div>
+                            <div class="stat">
+                                <strong>3</strong><span>Certifications</span>
+                            </div>
+                            <div class="stat">
+                                <strong>2</strong><span>Years Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section id="about" class="about section container">
+                <h2 class="section-title">About</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Hello! I'm <strong>Shresth</strong> — a front-end enthusiast focused on building accessible,
+                            fast and attractive web interfaces. I love combining clean markup, scalable CSS and subtle
+                            animation to make delightful user experiences.</p>
+                        <p>I have worked on projects ranging from responsive landing pages to interactive small web
+                            apps. My tools include HTML, CSS, JS, React basics and design sensibilities.</p>
+                        <a href="#contact" class="btn primary outline">Read more</a>
+                    </div>
+                    <figure class="about-figure">
+                        <img src="assets/images/my image.jpg" alt="Profile portrait" class="about-img">
+                        <figcaption>Always curious. Always designing.</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section id="skills" class="skills section container">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-sub">Core strengths & proficiency (animated)</p>
+
+                <div class="skills-grid" role="list">
+
+                    <div class="skill-card" role="listitem">
+                        <div class="radial" style="--p:92;">
+                            <div class="radial-inner">
+                                <strong>HTML</strong>
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" role="listitem">
+                        <div class="radial" style="--p:88;">
+                            <div class="radial-inner">
+                                <strong>CSS</strong>
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" role="listitem">
+                        <div class="radial" style="--p:60;">
+                            <div class="radial-inner">
+                                <strong>JavaScript</strong>
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" role="listitem">
+                        <div class="radial" style="--p:20;">
+                            <div class="radial-inner">
+                                <strong>React</strong>
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" role="listitem">
+                        <div class="radial" style="--p:65;">
+                            <div class="radial-inner">
+                                <strong>UI Design</strong>
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" role="listitem">
+                        <div class="radial" style="--p:60;">
+                            <div class="radial-inner">
+                                <strong>Accessibility</strong>
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CERTIFICATIONS -->
+            <section id="certs" class="certs section container">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-sub">Selected credentials</p>
+
+                <div class="cert-grid">
+                    <article class="cert-card">
+                        <h3>1STOP Intership</h3>
+                        <p>Learned and Practiced Javascript, HTML, CSS and get knowledge of react and jquery and implemented well in my codes</p>
+
+                        <a class="cert-btn" href="assets/images/Internship_Certificate - Shresth_Tripathi(1STOP).pdf" target="_blank" rel="noopener">Open Certificate</a>
+                    </article>
+
+                    <article class="cert-card">
+                        <h3>Nivesh Jano Internship</h3>
+                        <p>Worked as an intern for three months making responsive web pages,learned about semantic HTML & CSS tags and responsiveness</p>
+                        <a class="cert-btn" href="assets/images/Internship(Shresth)nivesh jano.pdf" target="_blank" rel="noopener">Open Certificate</a>
+                    </article>
+
+                    <article class="cert-card">
+                        <h3>InAmigos Internship</h3>
+                        <p>Graphic Designing and UI designing Internship.Learned more about the UI/UX design, video animations and more</p>
+                        <a class="cert-btn" href="assets/images/InAmigos Internship .pdf" target="_blank" rel="noopener">Open Certificate</a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- PROJECTS -->
+            <section id="projects" class="projects section container">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-sub">A selection of recent work (interactive & responsive)</p>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <img src="assets/images/repofast.png" alt="Project 1 screenshot" class="project-thumb">
+                        <div class="project-body">
+                            <h3>Repo-fast</h3>
+                            <p>a food delivery app</p>
+                            <div class="proj-meta">
+                                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+                                <a class="proj-btn" href="https://repo-fast-git-main-shr-devlopers-projects.vercel.app/" aria-label="Open project 1">View</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="assets/images/titlepage.png" alt="Project 2 screenshot" class="project-thumb">
+                        <div class="project-body">
+                            <h3>Pride-Resto</h3>
+                            <p>A resturant website </p>
+                            <div class="proj-meta">
+                                <span class="tag">HMTL</span><span class="tag">CSS</span>
+                                <a class="proj-btn" href="https://pride-resto-annf9b1nq-shr-devlopers-projects.vercel.app/" aria-label="Open project 2">View</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="assets/images/titlepagemusicvibes.png" alt="Project 3 screenshot" class="project-thumb">
+                        <div class="project-body">
+                            <h3>Music-Vibes</h3>
+                            <p>A music-player app</p>
+                            <div class="proj-meta">
+                                <span class="tag">HTML/CSS</span><span class="tag">JS</span>
+                                <a class="proj-btn" href="https://music-vibes-lh0ihlqi9-shr-devlopers-projects.vercel.app/" aria-label="Open project 3">View</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="assets/images/Screenshot 2024-11-17 194341.png" alt="Project 4 screenshot" class="project-thumb">
+                        <div class="project-body">
+                            <h3>Netflix Landing Page</h3>
+                            <p>Netflix landing page design</p>
+                            <div class="proj-meta">
+                                <span class="tag">HTML</span><span class="tag">CSS</span>
+                                <a class="proj-btn" href="https://netclone-p5rc7hw9c-shr-devlopers-projects.vercel.app/" aria-label="Open project 4">View</a>
+                            </div>
+                        </div>
+                    </article>
+
+                   
+
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact" class="contact section container">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-sub">Have a project or idea? Let's talk.</p>
+
+                <form class="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input required type="text" id="name" name="name" placeholder="Your name">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input required type="email" id="email" name="email" placeholder="you@example.com">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea required id="message" name="message" rows="6"
+                            placeholder="Tell me about your project..."></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button class="btn primary" type="submit">Send message</button>
+                    </div>
+                </form>
+            </section>
+
+        </main>
+
+        <footer class="site-footer" role="contentinfo">
+            <div class="container footer-inner">
+                <div class="footer-left">
+                    <p>© <span id="year"></span> Shresth Tripathi</p>
+                </div>
+                <div class="footer-right">
+                    <a href="tel:+911234567890" class="footer-btn">Call</a>
+                    <a href="mailto:your.email@example.com" class="footer-btn">Email</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
